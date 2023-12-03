@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div className={ !nav ? `h-screen bg-[#fff] flex flex-col px-5 py-2 transition ease-in-out duration-300` : `h-fit
+        bg-[#fdf3ed] flex justify-between items-center px-5 py-2 transition ease-in-out duration-300` }>
+        <div className="flex justify-between w-full items-center">
+            <img className="h-[45px] hidden md:block lg:hidden" alt="logo" src={require("../images/logo.png")} />
+            <img className="h-[45px] block md:hidden lg:block" alt="logo" src={require("../images/sm-logo.png")} />
+
+            <div className="contents  p-2 md:hidden" onClick={handleNav}>
+                {!nav ?
+                <AiOutlineClose size={30} /> :
+                <AiOutlineMenu size={30} />}
+            </div>
+        </div>
+
+        <div className={ !nav ? `mt-14 flex md:hidden justify-center gap-8 font-semibold w-full flex-col items-center
+            text-[1.1rem]` : `hidden gap-6 justify-center items-center mt-10 text-[1.1rem]` } // className={``}>
+            <p className="transition cursor-pointer hover:text-[#8247ff] duration-700">
+                Features
+            </p>
+
+            <p className="transition cursor-pointer hover:text-[#8247ff] duration-700">
+                FAQ
+            </p>
+            <p className="transition cursor-pointer hover:text-[#8247ff] duration-700">
+                Pricing
+            </p>
+
+            <p className="transition cursor-pointer hover:text-[#8247ff] duration-700">
+                Testimonials
+            </p>
+
+            <button
+                className="mt-3 bg-[#8247ff] text-white rounded-xl w-full py-3 px-10 flex justify-center shadow items-center font-semibold border-2 border-white transition duration-150 hover:border-[#8247ff] ease-in">
+                Buy Template
+            </button>
+        </div>
+
+        <div className="hidden md:flex items-center gap-8 text-[1.1rem]">
+            <div className="p-2">
+                <p className="transition duration-150 cursor-pointer hover:text-[#8247ff] ease-in">
+                    Features
+                </p>
+            </div>
+            <div className="p-2">
+                <p className="transition duration-150 cursor-pointer hover:text-[#8247ff] ease-in">
+                    FAQ
+                </p>
+            </div>
+            <div className="p-2">
+                <p className="transition duration-150 cursor-pointer hover:text-[#8247ff] ease-in">
+                    Pricing
+                </p>
+            </div>
+            <div className="p-2">
+                <p className="transition duration-150 cursor-pointer hover:text-[#8247ff] ease-in">
+                    Testimonials
+                </p>
+            </div>
+            <div className="p-2">
+                <p
+                    className="bg-white h-10 w-[150px] rounded-lg px-5 py-3 flex justify-center items-center font-semibold cursor-pointer shadow border border-white transition duration-150 hover:border-black ease-in">
+                    Buy Template
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div className="h-fit" style={{ background: "linear-gradient(180deg, #fdf3ed 35%, #fff 100%)" }}>
+        <div className="ani pt-[90px] w-full h-fit max-auto text-center gap-6 flex flex-col items-center">
+            <div className="uppercase text-sm  px-4 bg-white text-[#8a61ff] font-semibold">
+                <span className="text-lg">👋</span> Welcome to Manage wise!
+            </div>
+            <div className="w-full p-2">
+                <h1 className="text-5xl lg:text-6xl lg:px-[20%] font-semibold text-center ">
+                    Empower your business with
+                    <span className="text-[#FE8162]"> Strategic </span>
+                    insights
+                </h1>
+            </div>
+            <div className="px-16 py-4 text-[#767575] lg:px-[30%] text-lg font-semibold">
+                <p className="text-center">
+                    Powerful management platform designed to streamline your business
+                    operations, boost productivity, and drive success
+                </p>
+            </div>
+            <div className="w-full text-lg px-5 flex flex-col justify-center gap-6 md:flex-row">
+                <button
+                    className="bg-[#8247FF]  md:max-w-[200px] rounded-xl text-white w-full py-3 flex gap-2 justify-center shadow items-center font-semibold transition ease-in duration-150 hover:ease-out">
+                    Get Started
+                    <FaArrowCircleRight />
+                </button>
+                <button
+                    className="bg-[#fff] md:max-w-[200px] rounded-xl w-full py-3 flex gap-1 justify-center shadow items-center font-semibold border border-white  hover:border-black ease-in">
+                    Watch Demo
+                    <MdPlayCircle />
+                </button>
+            </div>
+            <div className="max-w-screen-lg mx-auto px-6">
+                <img className="w-full h-auto rounded-lg" src={require("../images/img1.png")} alt="img" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
