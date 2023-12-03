@@ -1,21 +1,22 @@
 import React from "react";
 import { MdPlayCircle } from "react-icons/md";
 import { FaArrowCircleRight } from "react-icons/fa";
-// import { gsap } from "gsap";
-// import SplitType from "split-type";
+import Aos from "aos";
+import "aos";
 
 const Hero = () => {
+  Aos.init();
   return (
     <div
-      className="h-fit"
       style={{ background: "linear-gradient(180deg, #fdf3ed 35%, #fff 100%)" }}
     >
-      <div className="ani pt-[90px] w-full h-fit max-auto text-center gap-6 flex flex-col items-center">
-        <div className="uppercase text-sm  px-4 bg-white text-[#8a61ff] font-semibold">
-          <span className="text-lg">👋</span> Welcome to Manage wise!
+      <div className="ani pt-[90px] w-full h-fit max-auto text-center gap-6 flex flex-col items-center"  data-aos="fade-up" data-aos-duration="2000">
+        <div className="uppercase text-sm rounded-lg border px-4 bg-white text-[#8a61ff] border-[#e6daff] font-semibold">
+          <span className="text-lg">👋</span> Welcome to
+          Manage wise!
         </div>
         <div className="w-full p-2">
-          <h1 className="text-5xl lg:text-6xl lg:px-[20%] font-semibold text-center ">
+          <h1 className="text-5xl lg:text-7xl lg:px-[10%] font-semibold text-center">
             Empower your business with
             <span className="text-[#FE8162]"> Strategic </span>
             insights
@@ -37,7 +38,7 @@ const Hero = () => {
             <MdPlayCircle />
           </button>
         </div>
-        <div className="max-w-screen-lg mx-auto px-6">
+        <div className="max-w-screen-lg mx-auto px-6" data-aos="fade-up" data-aos-duration="2000">
           <img
             className="w-full h-auto rounded-lg"
             src={require("../images/img1.png")}

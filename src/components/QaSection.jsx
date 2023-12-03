@@ -13,7 +13,9 @@ const QaSection = () => {
         <div className="uppercase text-sm w-fit bg-white text-[#8a61ff] border p-2 font-semibold">
           <span>🙋‍♀️ FAQ </span>
         </div>
-        <div className="pt-[20px] text-4xl lg:text-6xl font-semibold text-center xl:text-left">
+        <div className="pt-[20px] text-4xl lg:text-6xl font-semibold text-center xl:text-left" data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
           Need
           <span className="text-[#FE8162]"> Answers?</span>
         </div>
@@ -22,7 +24,9 @@ const QaSection = () => {
           information you need.
         </div>
       </div>
-      <div className="flex w-full flex-col gap-2 ease-in-out duration-300">
+      <div className="flex w-full flex-col gap-2 ease-in-out duration-300" data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
         <Question
           que="What is Manage Wise and what does it offer?"
           ans="Manage Wise is a comprehensive management platform designed to streamline your business operations, enhance

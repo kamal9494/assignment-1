@@ -18,7 +18,12 @@ const Section3 = () => {
       </div>
 
       <div className="w-full lg:flex">
-        <div className="bg-[#212121] p-10 flex flex-col items-center justify-center m-10 rounded-xl">
+        <div
+          className="bg-[#212121] p-10 flex flex-col items-center justify-center m-10 rounded-xl"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
           <div className="bg-[#8247ff] rounded-xl p-4 ">
             <FiSmartphone size={25} />
           </div>
@@ -32,7 +37,12 @@ const Section3 = () => {
           </p>
         </div>
 
-        <div className="bg-[#212121] p-10 flex flex-col items-center justify-center m-10 rounded-xl">
+        <div
+          className="bg-[#212121] p-10 flex flex-col items-center justify-center m-10 rounded-xl"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
           <div className="bg-[#8247ff] rounded-xl p-4 ">
             <FaBell size={25} />
           </div>
@@ -46,7 +56,12 @@ const Section3 = () => {
           </p>
         </div>
 
-        <div className="bg-[#212121] p-10 flex flex-col items-center justify-center m-10 rounded-xl">
+        <div
+          className="bg-[#212121] p-10 flex flex-col items-center justify-center m-10 rounded-xl"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
           <div className="bg-[#8247ff] rounded-xl p-4 ">
             <BsFire size={25} />
           </div>

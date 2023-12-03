@@ -8,7 +8,9 @@ const Footer = () => {
       className="h-fit md:px-10%"
       style={{ background: "linear-gradient(180deg, #fff 15%, #fdf3ed 100%)" }}
     >
-      <div className="sm:flex sm:flex-col xl:flex-row md:p-20">
+      <div className="sm:flex sm:flex-col xl:flex-row md:p-20" data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
         <div className="flex flex-col bg-white  md:px-20 py-10 items-center xl:items-start">
           <div className="uppercase text-sm w-fit bg-white text-[#8a61ff] border p-2 font-semibold">
             <span className="text-lg uppercase">👋</span> Don't Miss Out
@@ -51,7 +53,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-20 px-[10%] flex flex-col">
+      <div className="mt-20 px-[10%] gap-10 md:flex gap-20 flex-col">
         <div className="flex flex-col items-center md:flex-row md:justify-between gap-5">
           <img
             className="h-[45px] lg:block max-w-[200px]"

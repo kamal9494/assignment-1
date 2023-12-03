@@ -1,9 +1,16 @@
 import React from "react";
+import Aos from "aos";
+import "aos";
 
 const Section2 = () => {
+  Aos.init();
   return (
-    <div className="px-[30px] md:px-[10%] md:py-[10%] flex flex-col items-center justify-center">
-      <div className="bg-white w-full h-fit max-auto text-center flex flex-col items-center">
+    <div className="px-[30px] md:px-[10%] md:py-[10%] flex flex-col items-center justify-center p-20">
+      <div
+        className="bg-white w-full h-fit max-auto text-center flex flex-col items-center"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
         <div className="uppercase text-sm py-1 px-4 border rounded bg-white text-[#8a61ff] font-semibold">
           🔥 Premier features
         </div>
@@ -20,7 +27,12 @@ const Section2 = () => {
       </div>
 
       <div className="mt-10 sm:px-[10%] xl:px-[0%] xl:flex gap-10 justify-between text-center">
-        <div className="bg-[#ededfa] xl:w-[50%] p-10 flex flex-col rounded-2xl">
+        <div
+          className="bg-[#ededfa] xl:w-[50%] p-10 flex flex-col rounded-2xl"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
           <div className="mt-10 bg-white w-fit rounded-[20px]">
             <p className="bg-white rounded-[20px] text-xl w-fit p-3">⭐</p>
           </div>
@@ -30,7 +42,11 @@ const Section2 = () => {
           </h2>
         </div>
         <div className="xl:w-[50%]">
-          <div>
+          <div
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <img
               className="w-full h-auto rounded-lg"
               src={require("../images/img2.png")}
@@ -47,7 +63,9 @@ const Section2 = () => {
       </div>
 
       <div className="mt-10 sm:px-[10%] xl:px-[0%] xl:flex gap-10 justify-between text-center">
-        <div className="rounded-[20px] mt-4">
+        <div className="rounded-[20px] mt-4" data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
           <img
             className="w-full h-auto rounded-lg"
             src={require("../images/img3.png")}
@@ -61,7 +79,9 @@ const Section2 = () => {
           </div>
         </div>
 
-        <div className="rounded-[20px] mt-4">
+        <div className="rounded-[20px] mt-4" data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
           <img
             className="w-full h-auto rounded-lg"
             src={require("../images/img4.png")}
@@ -75,7 +95,9 @@ const Section2 = () => {
           </div>
         </div>
 
-        <div className="rounded-[20px] mt-4">
+        <div className="rounded-[20px] mt-4" data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
           <img
             className="w-full h-auto rounded-lg"
             src={require("../images/img5.png")}

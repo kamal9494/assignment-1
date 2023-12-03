@@ -17,7 +17,9 @@ const Pricing = () => {
       </div>
 
       <div className="flex flex-col xl:flex-row sm:px-10 md:px-[20%] xl:px-0 gap-10 justify-center">
-        <div className="bg-[#ededfa] rounded-md p-6">
+        <div className="bg-[#ededfa] rounded-md p-6" data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
           <div className="flex flex-col">
             <div>
               <div className="bg-white w-fit p-1 rounded-md border uppercase text-center text-sm text-orange-400 font-bold">
@@ -40,7 +42,9 @@ const Pricing = () => {
           </div>
         </div>
 
-        <div className="flex bg-[#1c1c1c] text-white rounded-md p-6">
+        <div className="flex bg-[#1c1c1c] text-white rounded-md p-6" data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
           <div>
             <div>
               <div className="bg-white w-fit p-1 rounded-md border uppercase text-center text-sm text-orange-400 font-bold">
@@ -66,7 +70,9 @@ const Pricing = () => {
           </div>
         </div>
 
-        <div className="flex bg-[#ededfa] rounded-md p-6">
+        <div className="flex bg-[#ededfa] rounded-md p-6" data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
           <div>
             <div>
               <div className="bg-white w-fit p-1 rounded-md border uppercase text-center text-sm text-orange-400 font-bold">
