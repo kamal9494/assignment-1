@@ -12,7 +12,7 @@ const Footer = () => {
           data-aos-easing="linear"
           data-aos-duration="1500">
         <div className="flex flex-col bg-white  md:px-20 py-10 items-center xl:items-start">
-          <div className="uppercase text-sm w-fit bg-white text-[#8a61ff] border my-4 font-semibold">
+          <div className="uppercase text-sm w-fit bg-white text-[#8a61ff] rounded-lg border py-1 px-4 my-4 font-semibold">
             <span className="text-lg uppercase">👋</span> Don't Miss Out
           </div>
           <div className="xl:text-left text-center">
