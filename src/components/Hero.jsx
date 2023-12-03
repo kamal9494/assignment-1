@@ -15,7 +15,7 @@ const Hero = () => {
           <span className="text-lg">👋</span> Welcome to
           Manage wise!
         </div>
-        <div className="w-full p-2">
+        <div className="w-full">
           <h1 className="text-5xl lg:text-7xl lg:px-[10%] font-semibold text-center">
             Empower your business with
             <span className="text-[#FE8162]"> Strategic </span>

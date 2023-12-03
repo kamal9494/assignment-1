@@ -5,9 +5,13 @@ import { BsFire } from "react-icons/bs";
 
 const Section3 = () => {
   return (
-    <div className="md:px-[9%] md:py-[10%] px-[30px] bg-[#1c1c1c] text-white flex flex-col items-start justify-center">
+    <div className="md:px-[9%] md:py-[10%] px-[20px] bg-[#1c1c1c] text-white flex flex-col items-start justify-center">
+      <div className="mt-[20px] uppercase text-sm rounded-lg border px-4 my-2 bg-white text-[#8a61ff] border-[#e6daff] font-semibold">
+        <span className="text-lg">🤩</span>
+        AND MORE...
+      </div>
       <div>
-        <h1 className="pt-[20px] text-4xl lg:text-6xl font-semibold text-left">
+        <h1 className="text-4xl lg:text-6xl font-semibold text-left">
           Explore an array of features that elevate your{" "}
           <span className="text-[#FE8162]"> Productivity </span> to new heights
         </h1>
@@ -17,9 +21,9 @@ const Section3 = () => {
         optimize your operations
       </div>
 
-      <div className="w-full lg:flex">
+      <div className="w-full xl:flex bg-red-500 ">
         <div
-          className="bg-[#212121] p-10 flex flex-col items-center justify-center m-10 rounded-xl"
+          className="bg-[#212121] p-8 flex flex-col items-center justify-center m-10 rounded-xl"
           data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="1500"
@@ -38,7 +42,7 @@ const Section3 = () => {
         </div>
 
         <div
-          className="bg-[#212121] p-10 flex flex-col items-center justify-center m-10 rounded-xl"
+          className="bg-[#212121] p-8 flex flex-col items-center justify-center m-10 rounded-xl"
           data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="1500"
@@ -57,7 +61,7 @@ const Section3 = () => {
         </div>
 
         <div
-          className="bg-[#212121] p-10 flex flex-col items-center justify-center m-10 rounded-xl"
+          className="bg-[#212121] p-8 flex flex-col items-center justify-center m-10 rounded-xl"
           data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="1500"

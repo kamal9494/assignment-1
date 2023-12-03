@@ -26,7 +26,7 @@ const QaSection = () => {
       </div>
       <div className="flex w-full flex-col gap-2 ease-in-out duration-300" data-aos="fade-up"
           data-aos-easing="linear"
-          data-aos-duration="1500">
+          data-aos-duration="1000">
         <Question
           que="What is Manage Wise and what does it offer?"
           ans="Manage Wise is a comprehensive management platform designed to streamline your business operations, enhance

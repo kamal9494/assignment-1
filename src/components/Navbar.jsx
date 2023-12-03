@@ -19,8 +19,8 @@ const Navbar = () => {
     <div
       className={
         !nav
-          ? `h-screen bg-[#fff] flex flex-col px-5 py-2 transition ease-in-out duration-300`
-          : `h-fit bg-[#fdf3ed] flex justify-between items-center px-5 py-2 transition ease-in-out duration-300`
+          ? `h-screen bg-[#fff] flex flex-col px-6 py-3 transition ease-in-out duration-300`
+          : `h-fit bg-[#fdf3ed] flex justify-between items-center px-6 py-3 transition ease-in-out duration-300`
       }
     >
       <div className="flex justify-between w-full items-center">
@@ -46,11 +46,12 @@ const Navbar = () => {
             ? `mt-14 flex md:hidden justify-center gap-8 font-semibold w-full flex-col items-center text-[1.1rem]`
             : `hidden gap-6 justify-center items-center mt-10 text-[1.1rem]`
         }
-        // className={``}
       >
         <p className="transition cursor-pointer hover:text-[#8247ff] duration-700">
           Features
         </p>
+
+        {/* <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 100%; height: 100%" viewBox="0 0 4 5" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg-819241569_136"></use></svg> */}
 
         <p className="transition cursor-pointer hover:text-[#8247ff] duration-700">
           FAQ
@@ -68,22 +69,25 @@ const Navbar = () => {
         </button>
       </div>
 
-      <div className="hidden md:flex items-center gap-8 text-[1.1rem]">
+      <div className="hidden md:flex items-center gap-5 text-[1.1rem]">
         <div className="p-2">
           <p className="transition duration-150 cursor-pointer hover:text-[#8247ff] ease-in">
             Features
           </p>
         </div>
+        <p className="w-fit text-[#dacec2]">•</p>
         <div className="p-2">
           <p className="transition duration-150 cursor-pointer hover:text-[#8247ff] ease-in">
             FAQ
           </p>
         </div>
+        <p className="w-fit text-[#dacec2]">•</p>
         <div className="p-2">
           <p className="transition duration-150 cursor-pointer hover:text-[#8247ff] ease-in">
             Pricing
           </p>
         </div>
+        <p className="w-fit text-[#dacec2]">•</p>
         <div className="p-2">
           <p className="transition duration-150 cursor-pointer hover:text-[#8247ff] ease-in">
             Testimonials

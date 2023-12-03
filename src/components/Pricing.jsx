@@ -2,9 +2,9 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <div className="md:px-[15%] px-[30px] bg-white flex gap-4 flex-col">
+    <div className="md:px-[15%] px-[30px] pt-20 bg-white flex gap-4 flex-col">
       <div className="flex flex-col justify-center items-center">
-        <div className="border bg-white">💲Pricing</div>
+        <div className="border bg-white p-2 rounded-lg text-[#8a61ff] px-3">💲Pricing</div>
         <h1 className="pt-[20px] text-4xl lg:text-6xl font-semibold text-center">
           Select you ideal
           <span className="text-[#FE8162]"> Pricing </span> plan
@@ -29,11 +29,11 @@ const Pricing = () => {
                 $0<span className="text-xl text-[#767575]">/month</span>
               </h1>
             </div>
-            <div className="flex flex-col gap-2 p-5 text-[#767575] text-lg">
-              <div>Access to all basic features</div>
-              <div>Reporting and analytics</div>
-              <div>Up to 5 individual users</div>
-              <div>Chat and email support</div>
+            <div className="flex flex-col gap-2 p-2 text-[#767575] text-lg">
+              <div className="flex gap-2"><svg viewBox="0 0 20 20" fill="currentColor" width="24" height="24" color="var(--token-7d9d6b70-3e5f-4b3e-ad0c-f37f53a2377b, rgb(93, 192, 133)) /* {&quot;name&quot;:&quot;Green&quot;} */"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>Access to all basic features</div>
+              <div className="flex gap-2"><svg viewBox="0 0 20 20" fill="currentColor" width="24" height="24" color="var(--token-7d9d6b70-3e5f-4b3e-ad0c-f37f53a2377b, rgb(93, 192, 133)) /* {&quot;name&quot;:&quot;Green&quot;} */"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>Reporting and analytics</div>
+              <div className="flex gap-2"><svg viewBox="0 0 20 20" fill="currentColor" width="24" height="24" color="var(--token-7d9d6b70-3e5f-4b3e-ad0c-f37f53a2377b, rgb(93, 192, 133)) /* {&quot;name&quot;:&quot;Green&quot;} */"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>Up to 5 individual users</div>
+              <div className="flex gap-2"><svg viewBox="0 0 20 20" fill="currentColor" width="24" height="24" color="var(--token-7d9d6b70-3e5f-4b3e-ad0c-f37f53a2377b, rgb(93, 192, 133)) /* {&quot;name&quot;:&quot;Green&quot;} */"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>Chat and email support</div>
               
             </div>
             <button className="bg-white mt-6 h-10 w-[150px] rounded-lg px-5 py-3 flex justify-center items-center font-semibold shadow hover:shadow-lg">
@@ -54,13 +54,13 @@ const Pricing = () => {
                 $25<span className="text-xl text-[#767575]">/month</span>
               </h1>
             </div>
-            <div className="flex flex-col gap-2 p-5 text-[#767575] text-lg">
-              <div>Access to all basic features</div>
-              <div>Reporting and analytics</div>
-              <div>Up to 5 individual users</div>
-              <div>Chat and email support</div>
-              <div>3+ integrations</div>
-              <div>Account performance reporting</div>
+            <div className="flex flex-col gap-2 p-2 text-[#767575] text-lg">
+              <div className="flex gap-2"><svg viewBox="0 0 20 20" fill="currentColor" width="24" height="24" color="var(--token-7d9d6b70-3e5f-4b3e-ad0c-f37f53a2377b, rgb(93, 192, 133)) /* {&quot;name&quot;:&quot;Green&quot;} */"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>Access to all basic features</div>
+              <div className="flex gap-2"><svg viewBox="0 0 20 20" fill="currentColor" width="24" height="24" color="var(--token-7d9d6b70-3e5f-4b3e-ad0c-f37f53a2377b, rgb(93, 192, 133)) /* {&quot;name&quot;:&quot;Green&quot;} */"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>Reporting and analytics</div>
+              <div className="flex gap-2"><svg viewBox="0 0 20 20" fill="currentColor" width="24" height="24" color="var(--token-7d9d6b70-3e5f-4b3e-ad0c-f37f53a2377b, rgb(93, 192, 133)) /* {&quot;name&quot;:&quot;Green&quot;} */"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>Up to 5 individual users</div>
+              <div className="flex gap-2"><svg viewBox="0 0 20 20" fill="currentColor" width="24" height="24" color="var(--token-7d9d6b70-3e5f-4b3e-ad0c-f37f53a2377b, rgb(93, 192, 133)) /* {&quot;name&quot;:&quot;Green&quot;} */"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>Chat and email support</div>
+              <div className="flex gap-2"><svg viewBox="0 0 20 20" fill="currentColor" width="24" height="24" color="var(--token-7d9d6b70-3e5f-4b3e-ad0c-f37f53a2377b, rgb(93, 192, 133)) /* {&quot;name&quot;:&quot;Green&quot;} */"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>3+ integrations</div>
+              <div className="flex gap-2"><svg viewBox="0 0 20 20" fill="currentColor" width="24" height="24" color="var(--token-7d9d6b70-3e5f-4b3e-ad0c-f37f53a2377b, rgb(93, 192, 133)) /* {&quot;name&quot;:&quot;Green&quot;} */"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>Account performance reporting</div>
             </div>
             <div>
               <button className="bg-[#8247ff] mt-6 h-10 w-[150px] rounded-lg px-5 py-3 flex justify-center items-center font-semibold shadow hover:shadow-lg">
@@ -82,12 +82,12 @@ const Pricing = () => {
                 $42<span className="text-xl text-[#767575]">/month</span>
               </h1>
             </div>
-            <div className="flex flex-col gap-2 p-5 text-[#767575] text-lg">
-              <div>Access to all basic features</div>
-              <div>Reporting and analytics</div>
-              <div>Up to 5 individual users</div>
-              <div>Chat and email support</div>
-              <div>3+ integrations</div>
+            <div className="flex flex-col gap-2 py-4 text-[#767575] text-lg">
+              <div className="flex gap-2"><svg viewBox="0 0 20 20" fill="currentColor" width="24" height="24" color="var(--token-7d9d6b70-3e5f-4b3e-ad0c-f37f53a2377b, rgb(93, 192, 133)) /* {&quot;name&quot;:&quot;Green&quot;} */"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>Access to all basic features</div>
+              <div className="flex gap-2"><svg viewBox="0 0 20 20" fill="currentColor" width="24" height="24" color="var(--token-7d9d6b70-3e5f-4b3e-ad0c-f37f53a2377b, rgb(93, 192, 133)) /* {&quot;name&quot;:&quot;Green&quot;} */"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>Reporting and analytics</div>
+              <div className="flex gap-2"><svg viewBox="0 0 20 20" fill="currentColor" width="24" height="24" color="var(--token-7d9d6b70-3e5f-4b3e-ad0c-f37f53a2377b, rgb(93, 192, 133)) /* {&quot;name&quot;:&quot;Green&quot;} */"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>Up to 5 individual users</div>
+              <div className="flex gap-2"><svg viewBox="0 0 20 20" fill="currentColor" width="24" height="24" color="var(--token-7d9d6b70-3e5f-4b3e-ad0c-f37f53a2377b, rgb(93, 192, 133)) /* {&quot;name&quot;:&quot;Green&quot;} */"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>Chat and email support</div>
+              <div className="flex gap-2"><svg viewBox="0 0 20 20" fill="currentColor" width="24" height="24" color="var(--token-7d9d6b70-3e5f-4b3e-ad0c-f37f53a2377b, rgb(93, 192, 133)) /* {&quot;name&quot;:&quot;Green&quot;} */"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>3+ integrations</div>
             </div>
             <div>
               <button className="bg-white mt-6 h-10 w-[150px] rounded-lg px-5 py-3 flex justify-center items-center font-semibold shadow hover:shadow-lg">
