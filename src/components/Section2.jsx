@@ -1,6 +1,4 @@
 import React from "react";
-import { MdPlayCircle } from "react-icons/md";
-import { FaArrowCircleRight } from "react-icons/fa";
 
 const Section2 = () => {
   return (
@@ -36,6 +34,7 @@ const Section2 = () => {
             <img
               className="w-full h-auto rounded-lg"
               src={require("../images/img2.png")}
+              alt="img"
             />
             <div className="text-left flex flex-col gap-3 p-5">
               <p className="text-xl font-bold">Smart Task Management</p>
@@ -52,6 +51,7 @@ const Section2 = () => {
           <img
             className="w-full h-auto rounded-lg"
             src={require("../images/img3.png")}
+            alt="img"
           />
           <div className="text-left flex flex-col gap-3 p-5">
             <p className="text-xl font-bold">Flexible Scheduling</p>
@@ -65,6 +65,7 @@ const Section2 = () => {
           <img
             className="w-full h-auto rounded-lg"
             src={require("../images/img4.png")}
+            alt="img"
           />
           <div className="text-left flex flex-col gap-3 p-5">
             <p className="text-xl font-bold">Easy Communication</p>
@@ -78,6 +79,7 @@ const Section2 = () => {
           <img
             className="w-full h-auto rounded-lg"
             src={require("../images/img5.png")}
+            alt="img"
           />
           <div className="text-left flex flex-col gap-3 p-5">
             <p className="text-xl font-bold">Analytics</p>
