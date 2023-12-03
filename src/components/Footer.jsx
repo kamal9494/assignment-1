@@ -51,21 +51,21 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="px-[10%]">
-        <div className="flex justify-between">
+      <div className="mt-20 px-[10%] flex flex-col">
+        <div className="flex flex-col items-center md:flex-row md:justify-between gap-5">
           <img
-            className="h-[45px] block md:hidden lg:block"
+            className="h-[45px] lg:block max-w-[200px]"
             alt="logo"
             src={require("../images/sm-logo.png")}
           />
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col gap-1 text-center md:text-left">
             <div>Features</div>
             <div>FAQ</div>
             <div>Pricing</div>
             <div>Testimonials</div>
           </div>
         </div>
-        <div className="mt-10 flex py-5 justify-between">
+        <div className="mt-10 py-5 md:justify-between flex gap-5 justify-center items-center flex-col md:flex-row">
           <p>© 2022 ManageWise, Inc.</p>
           <div className="flex gap-3">
             <FaInstagram size={25} />
