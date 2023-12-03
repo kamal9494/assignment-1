@@ -47,22 +47,30 @@ const Navbar = () => {
             : `hidden gap-6 justify-center items-center mt-10 text-[1.1rem]`
         }
       >
-        <p className="transition cursor-pointer hover:text-[#8247ff] duration-700">
-          Features
-        </p>
+        <a href="#section2">
+          <p className="transition cursor-pointer hover:text-[#8247ff] duration-700">
+            Features
+          </p>
+        </a>
 
         {/* <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 100%; height: 100%" viewBox="0 0 4 5" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg-819241569_136"></use></svg> */}
 
-        <p className="transition cursor-pointer hover:text-[#8247ff] duration-700">
-          FAQ
-        </p>
-        <p className="transition cursor-pointer hover:text-[#8247ff] duration-700">
-          Pricing
-        </p>
+        <a href="#faq">
+          <p className="transition cursor-pointer hover:text-[#8247ff] duration-700">
+            FAQ
+          </p>
+        </a>
+        <a href="#pricing">
+          <p className="transition cursor-pointer hover:text-[#8247ff] duration-700">
+            Pricing
+          </p>
+        </a>
 
-        <p className="transition cursor-pointer hover:text-[#8247ff] duration-700">
-          Testimonials
-        </p>
+        <a href="#testimonals">
+          <p className="transition cursor-pointer hover:text-[#8247ff] duration-700">
+            Testimonials
+          </p>
+        </a>
 
         <button className="mt-3 bg-[#8247ff] text-white rounded-xl w-full py-3 px-10 flex justify-center shadow items-center font-semibold border-2 border-white transition duration-150 hover:border-[#8247ff] ease-in">
           Buy Template
@@ -71,27 +79,35 @@ const Navbar = () => {
 
       <div className="hidden md:flex items-center gap-5 text-[1.1rem]">
         <div className="p-2">
-          <p className="transition duration-150 cursor-pointer hover:text-[#8247ff] ease-in">
-            Features
-          </p>
+          <a href="#section2">
+            <p className="transition duration-150 cursor-pointer hover:text-[#8247ff] ease-in">
+              Features
+            </p>
+          </a>
         </div>
         <p className="w-fit text-[#dacec2]">•</p>
         <div className="p-2">
-          <p className="transition duration-150 cursor-pointer hover:text-[#8247ff] ease-in">
-            FAQ
-          </p>
+          <a href="#faq">
+            <p className="transition duration-150 cursor-pointer hover:text-[#8247ff] ease-in">
+              FAQ
+            </p>
+          </a>
         </div>
         <p className="w-fit text-[#dacec2]">•</p>
         <div className="p-2">
-          <p className="transition duration-150 cursor-pointer hover:text-[#8247ff] ease-in">
-            Pricing
-          </p>
+          <a href="#pricing">
+            <p className="transition duration-150 cursor-pointer hover:text-[#8247ff] ease-in">
+              Pricing
+            </p>
+          </a>
         </div>
         <p className="w-fit text-[#dacec2]">•</p>
         <div className="p-2">
-          <p className="transition duration-150 cursor-pointer hover:text-[#8247ff] ease-in">
-            Testimonials
-          </p>
+          <a href="#testimonals">
+            <p className="transition duration-150 cursor-pointer hover:text-[#8247ff] ease-in">
+              Testimonials
+            </p>
+          </a>
         </div>
         <div className="p-2">
           <p className="bg-white h-10 w-[150px] rounded-lg px-5 py-3 flex justify-center items-center font-semibold cursor-pointer shadow border border-white transition duration-150 hover:border-black ease-in">

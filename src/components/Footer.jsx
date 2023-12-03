@@ -5,14 +5,14 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div
-      className="h-fit md:px-10%"
+      className="h-fit mt-[80px] px-[30px] md:px-[10%] "
       style={{ background: "linear-gradient(180deg, #fff 15%, #fdf3ed 100%)" }}
     >
       <div className="sm:flex sm:flex-col xl:flex-row md:p-20" data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="1500">
         <div className="flex flex-col bg-white  md:px-20 py-10 items-center xl:items-start">
-          <div className="uppercase text-sm w-fit bg-white text-[#8a61ff] border p-2 font-semibold">
+          <div className="uppercase text-sm w-fit bg-white text-[#8a61ff] border my-4 font-semibold">
             <span className="text-lg uppercase">👋</span> Don't Miss Out
           </div>
           <div className="xl:text-left text-center">
@@ -35,9 +35,9 @@ const Footer = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-col md:p-20 xl:p-3 justify-center items-center bg-white">
-          <div className="bg-white p-3 rounded-lg">
-            <h1 className="text-2xl font-semibold">
+        <div className="flex flex-col md:p-20 xl:p-3 justify-evenly items-center bg-white">
+          <div className="bg-white p-3 rounded-lg my-2">
+            <h1 className="text-2xl font-semibold border p-2 shadow-md">
               <span className="text-[#8a61ff]">200+ </span> Happy users
             </h1>
           </div>

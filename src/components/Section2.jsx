@@ -5,7 +5,7 @@ import "aos";
 const Section2 = () => {
   Aos.init();
   return (
-    <div className="px-[30px] md:px-[10%] md:py-[10%] flex flex-col items-center justify-center p-20">
+    <div id="section2" className="px-[30px] md:px-[10%] md:py-[10%] flex flex-col items-center justify-center p-20">
       <div
         className="bg-white w-full h-fit max-auto text-center flex flex-col items-center"
         data-aos="fade-up"

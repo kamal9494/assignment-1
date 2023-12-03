@@ -6,6 +6,7 @@ import Section3 from "./components/Section3";
 import QaSection from "./components/QaSection";
 import Pricing from "./components/Pricing";
 import Footer from "./components/Footer";
+import Testimonals from "./components/Testimonals";
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
       <Section3 />
       <QaSection />
       <Pricing />
+      <Testimonals />
       <Footer />
     </div>
   );

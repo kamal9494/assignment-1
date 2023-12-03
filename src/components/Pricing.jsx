@@ -2,7 +2,7 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <div className="md:px-[15%] px-[30px] pt-20 bg-white flex gap-4 flex-col">
+    <div id="pricing" className="md:px-[15%] px-[30px] pt-20 bg-white flex gap-4 flex-col">
       <div className="flex flex-col justify-center items-center">
         <div className="border bg-white p-2 rounded-lg text-[#8a61ff] px-3">💲Pricing</div>
         <h1 className="pt-[20px] text-4xl lg:text-6xl font-semibold text-center">
