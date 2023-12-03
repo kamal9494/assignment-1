@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-20 px-[10%] gap-10 md:flex gap-20 flex-col">
+      <div className="mt-20 px-[10%] md:flex gap-20 flex-col">
         <div className="flex flex-col items-center md:flex-row md:justify-between gap-5">
           <img
             className="h-[45px] lg:block max-w-[200px]"
