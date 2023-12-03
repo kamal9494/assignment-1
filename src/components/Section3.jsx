@@ -21,7 +21,7 @@ const Section3 = () => {
         optimize your operations
       </div>
 
-      <div className="w-full xl:flex bg-red-500 ">
+      <div className="w-full xl:flex">
         <div
           className="bg-[#212121] p-8 flex flex-col items-center justify-center m-10 rounded-xl"
           data-aos="fade-up"
