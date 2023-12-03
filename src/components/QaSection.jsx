@@ -8,14 +8,16 @@ const QaSection = () => {
   const [q4Show, setQ4Show] = useState(true);
   const [q5Show, setQ5Show] = useState(true);
   return (
-    <div className="md:px-[9%] md:py-[10%] px-[30px] bg-white flex flex-col items-start justify-center">
-      <div className="flex flex-col gap-3">
-        <div className="bg-white">🙋‍♀️ FAQ</div>
-        <h1 className="pt-[20px] text-4xl lg:text-6xl font-semibold text-left">
+    <div className="md:px-[9%] md:py-[10%] px-[30px] bg-white flex flex-col xl:flex-row items-start justify-center">
+      <div className="flex flex-col gap-3 w-full md:px-20 py-10 items-center xl:items-start">
+        <div className="uppercase text-sm w-fit bg-white text-[#8a61ff] border p-2 font-semibold">
+          <span>🙋‍♀️ FAQ </span>
+        </div>
+        <div className="pt-[20px] text-4xl lg:text-6xl font-semibold text-center xl:text-left">
           Need
-          <span className="text-[#FE8162]"> Answers?</span> to new heights
-        </h1>
-        <div className="w-full text-left py-4 text-[#767575] max-w-[600px] text-lg font-semibold">
+          <span className="text-[#FE8162]"> Answers?</span>
+        </div>
+        <div className="w-full text-center xl:text-left py-4 text-[#767575] max-w-[600px] text-lg font-semibold">
           Check out our most commonly asked questions below to find the
           information you need.
         </div>
