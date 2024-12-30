@@ -3,6 +3,9 @@ import { FaArrowCircleRight, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
+  const buildId = process.env.NETLIFY_BUILD_ID || 'local';
+  const deployId = process.env.CONTEXT || 'development';
+
   return (
     <div
       className="h-fit mt-[80px] px-[30px] md:px-[10%] "
@@ -74,6 +77,10 @@ const Footer = () => {
             <FaSquareXTwitter size={25} />
             <FaLinkedin size={25} />
           </div>
+        </div>
+        <div>
+          <p>Build: {buildId}</p>
+          <p>Environment: {deployId}</p>
         </div>
       </div>
     </div>
